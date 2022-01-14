@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css\bootstrap.min.css">
+	<link rel="stylesheet" href="css\style.css">
+	<script type="js/script.js"></script>
+	<title>China Bistro Restaurant</title>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="contianer">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html">
+							<h1>China Restaurant</h1>
+						</a>
+						<p>
+							<img src="images/star-k-logo.png" alt="Kosher Certification">
+							<span>Kosher Certtified</span>
+						</p>
+					</div>
+					  <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>  
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>	
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li  class="active">
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span>
+							<br class="hidden-xs">
+                            Home
+						    </a>
+						</li>
+						<li>
+							<a href="#" onclick="$dc.loadMenuCategories();"><span class="glyphicon glyphicon-cutlery"></span>
+							<br class="hidden-xs">
+                            Menu
+						    </a>
+						</li>
+						<li>
+							<a href="#" onclick="$dc.loadAboutPage();"><span class="glyphicon glyphicon-info-sign"></span>
+							<br class="hidden-xs">
+							About
+						    </a>
+							
+                        </li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:01124348864">
+								<span>01124348864</span>
+							</a>
+							<div>*We Deliver</div>
+						</li>
+					</ul><!--nav-list-->
+				</div><!--.collapse .navbar-collapse -->
+			</div><!--contianer -->
+	    </nav>
+	</header>
+	<!--xs Deleviry Button -->
+	<div id="call-btn" class="visible-xs ">
+		<a class="btn" href="tel:0112-434-8864">
+			<span class="glyphicon glyphicon-earphone"> 0112-434-8864</span>
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+    <!-- Here we code the Jumbotron Div-->
+	<div id="main-content" class="container">	
+	</div><!--main-content-->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Hours</span><br>
+					Sun-Thurs: 11:15am - 10:00pm<br>
+					Fri: 11:15am - 2:30pm<br>
+					Saturday Closed
+					<hr class="visible-xs">
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address</span><br>
+					11 masaoud bn youssef <br>
+					el ganzori , el zahr 
+					<p>* Delivery area within 3-4 miles , with minimum order of $20 plus $3 charge for all deliveries.</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+					<p>"Amazing food! Greatserviece! Couldn't ask for ore?"</p>
+				</section>
+			</div><!--row-->
+			<div class="text-center">&copy; Copyright China Restaurant 2021</div>
+		</div><!--contianer-->
+		
+	</footer>
+
+	
+<!--jQuery ()  -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

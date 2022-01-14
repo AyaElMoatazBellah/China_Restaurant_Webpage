@@ -1,0 +1,53 @@
+        <div class="jumbotron img-responsive">
+			<!--her we can stretch the width of image as we need Due to presence of "img-responive" -->
+			<div class="mySlides" >
+				<img src="images/r1.jpg" alt="Picture of Restaurant" class="img-responsive">
+			</div>
+			<div class="mySlides" style="display: none;">
+				<img src="images/r2.jpg" alt="Picture of Restaurant" class="img-responsive">
+			</div>
+			<div class="mySlides" style="display: none;">
+				<img src="images/r3.jpg" alt="Picture of Restaurant" class="img-responsive">
+			</div>
+			<div class="mySlides" style="display: none;">
+				<img src="images/r4.jpg" alt="Picture of Restaurant" class="img-responsive">
+			</div>
+			<div class="mySlides" style="display: none;">
+				<img src="images/r5.jpg" alt="Picture of Restaurant" class="img-responsive">
+			</div>
+		</div><!--jumbotron-->
+		 <div class="dots"style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot" ></span> 
+                <span class="dot"></span> 
+                <span class="dot" ></span> 
+                <span class="dot" ></span> 
+            </div>
+       
+        <div id="home-tiles" class="row">
+		<div class="col-lg-4 col-sm-6 col-xs-12">
+			<a href="#" onclick="$dc.loadMenuCategories();">
+				<div id="menu-title">
+					<span>Menu</span>
+				</div>
+			</a>
+		</div>
+		<div class="col-lg-4 col-sm-6 col-xs-12">	
+			<a href="#" onclick="$dc.loadMenuItems('SP');" >
+				<div id="specials-title">
+					<span>Specials</span>
+				</div>
+			</a>
+		</div>
+		<!--the place where we put the map-->
+		<div class="col-lg-4 col-sm-12 col-xs-12">
+			<a href="https://goo.gl/maps/aiaE4Pz6P1YJ2wdt7" target="_blank">
+				<div id="map-tile">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55250.900382910884!2d31.30730032089842!3d30.060338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f79890cb45f%3A0x7d81f3565081b16a!2z2YXYt9i52YUg2KfZhNmB2LHYr9mI2LMg2KfZhNi12YrZhtmKINiMINi02KfZhti62LHZitmE2Kc!5e0!3m2!1sar!2seg!4v1637613546644!5m2!1sar!2seg" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<span>Map</span>
+				</div>
+
+			</a>
+		</div>	
+
+	    </div><!--home_tiles-->	
